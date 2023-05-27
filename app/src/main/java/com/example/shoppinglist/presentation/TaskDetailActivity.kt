@@ -1,4 +1,4 @@
-package com.example.shoppinglist
+package com.example.shoppinglist.presentation
 
 import android.app.Activity
 import android.content.Context
@@ -11,6 +11,8 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import com.example.shoppinglist.DATA.Task
+import com.example.shoppinglist.R
 import com.google.android.material.snackbar.Snackbar
 
 class TaskDetailActivity : AppCompatActivity() {

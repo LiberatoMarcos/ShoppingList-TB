@@ -1,4 +1,4 @@
-package com.example.shoppinglist
+package com.example.shoppinglist.presentation
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +7,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.example.shoppinglist.DATA.Task
+import com.example.shoppinglist.R
 
 class TaskListAdapter(
     private val openTaskDetailView: (task: Task) ->Unit
